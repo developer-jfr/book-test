@@ -1,0 +1,31 @@
+
+.specificBook__container
+{
+     padding: 10px;
+     padding-left: 70px ;
+}
+.specificBook__wrapp
+{
+    display: flex;
+    flex-direction: row;
+}
+.specificBook__image
+{
+     width: 350px;
+      height: 440px;
+}
+.specificBook_info
+{
+    display: flex;
+    flex-direction : column;
+    padding: 20px;
+}
+.specificBook_title
+{
+     padding-top: 20px ;
+}
+.specificBook__author
+{
+     padding-top: 90px ;
+}
+

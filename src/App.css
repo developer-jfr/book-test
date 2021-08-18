@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.search 
+{
+background:url('./assets/images//bkTwo.png') ;
+    padding-top: 70px;
+    background-repeat: no-repeat;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.specificBook__container
+{
+     padding: 10px;
+     padding-left: 70px ;
+}
+.specificBook__wrapp
+{
+    display: flex;
+    flex-direction: row;
+}
+.specificBook__image
+{
+     width: 350px;
+      height: 440px;
+}
+.specificBook_info
+{
+    display: flex;
+    flex-direction : column;
+    padding: 20px;
+}
+.specificBook_title
+{
+     padding-top: 20px ;
+}
+.specificBook__author
+{
+     padding-top: 90px ;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+.books_container
+{
+    padding: 0px 50px 50px 50px;
+}
+.books_wrapp
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+     padding: 20px;
+}
+.book__container
+{
+    padding: 10px;
+     width: 210px;
+      background-color: rgba(116, 114, 114, 0.2);
+}
+.book_image
+{
+    padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.book_info
+{
+    display: flex;
+     flex-direction: column;
+      font-size: 12px;
+       background-color: #fff;
+}
+.book_categories
+{
+    color: rgb(128, 122, 122); 
+    text-decoration: underline; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.book_title
+{
+    width: 150px;
+     font-size: 13px;
+      flex-direction: none;
+}
+.book_auth
+{
+    font-size: 13px;
+    color: rgb(128, 122, 122); 
+}
+
+
+
+
+.specificBook_desk
+{
+    padding-top: 40px;
 }
